@@ -2,24 +2,31 @@
 
 # Processo de ETL com Python e Airflow usando API do Spotify
 
-Tabela de conteúdos
-=================
-<!--ts-->
-   * [Sobre](##Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
-<!--te-->
-
 ## Sobre
-Projeto de ETL(Extract, Transform e Load) ultilizando Python com API do Spotify e Airflow para automatização.
+Projeto de ETL(Extract, Transform e Load) ultilizando Python com API do Spotify e Airflow para automatização. Com um token gerado pela própria plataforma do Spotify é possivel fazer um *request* com os dados das músicas que você ouviu, pegando apenas as que eu ouvi nas ultimas 24 horas, montei um processo onde manualmente ou automaticamente com o Airflow esses dados são salvos em um banco de dados SQL.
 O projeto foi proposto pela youtuber Inglesa [Karolina Sowinska](https://www.youtube.com/c/KarolinaSowinska) e tem como objetivo passar mesmo que de forma básica pelos processos de ETL.
 
+## Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- **Python**
+- **Pandas**
+- **SQLAlchemy**
+- **Airflow**
+
+## API Spotify
+Com uma conta gratuita do Spotify, é possivel em sua API
+
+## Extract
+
+## Transform
+
+## Load
+
+## Validação
+
+## Airflow
+
+## Sobre Mim
+Recém-formado em Ciências da Computação, e apaixonado por Inteligência Artificial e dados, busco oportunidade para adquirir experiência com Data Science, Machine Learning, Data Engineer e Big Data.
 * [LinkedIn](https://www.linkedin.com/in/leonardo-vilani-selan/)
