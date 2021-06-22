@@ -14,12 +14,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **SQLAlchemy**
 - **Airflow**
 
-## API Spotify
-Com uma conta gratuita do Spotify, é possivel em sua API
-
 ## Extract
+Com uma conta gratuita do Spotify, é possivel gerar um token que dará acesso as musicas que você ouviu, vale notar que o token expira em algumas horas o ideal seria encontrar uma maneira de atualizar o token automaticamente.
 
 ## Transform
+
 
 ## Load
 
